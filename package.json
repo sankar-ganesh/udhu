@@ -1,0 +1,46 @@
+{
+  "name": "udhu",
+  "version": "0.0.1",
+  "description": "உது helps solve the dependency mapping for entities with the help of finite state machine",
+  "main": "src/udhu.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "develop": "webpack --mode development --watch",
+    "lint": "eslint --ignore-path=.gitignore . src test",
+    "test": "nyc --reporter=lcov --reporter=text mocha --require @babel/register"
+  },
+  "files": [
+    "src",
+    "dist/udhu.js"
+  ],
+  "repository": "git+https://github.com/sankar-ganesh/udhu.git",
+  "keywords": [
+    "udhu",
+    "udhu js",
+    "js entity",
+    "entity",
+    "dependencies",
+    "js dependencies"
+  ],
+  "authors": [
+    "Sankar Ganesh <sankar.ganesh@freshworks.com>"
+  ],
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/plugin-transform-arrow-functions": "^7.2.0",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "babel-loader": "^8.0.6",
+    "chai": "^4.2.0",
+    "eslint": "^6.5.1",
+    "mocha": "^6.2.1",
+    "nyc": "^14.1.1",
+    "sinon": "^7.5.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
