@@ -1,6 +1,6 @@
 {
   "name": "udhu",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "உது helps solve the dependency mapping for entities with the help of finite state machine",
   "main": "src/udhu.js",
   "scripts": {
